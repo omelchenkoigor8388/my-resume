@@ -6,6 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .wrapper {
     width: 1200px;
     margin: 0px auto;
@@ -217,4 +218,75 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #161D2A;
+}
+
+@media(max-width: 680px){
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .my-photo {
+        width: 140px;
+        height: 170px;
+        border-radius: 50%;
+    }
+
+    .contacts-container,
+    .tach-skills-container,
+    .soft-skills-container {
+        margin: 0px;
+    }
+
+    .skills-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidedar {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .my-name {
+        font-size: 25px;
+    }
+
+    .my-descr {
+        width: fit-content;
+    }
+
+    .projects-containers {
+        text-align: initial;
+    }
+
+    .main-content-title {
+        text-align: center;
+    }
+
+    .project-item span {
+        display: none;
+    }
+
+    .work-experience-place ul {
+        margin-bottom: 25px;
+        list-style-type: none;
+    }
+
+    .work-experience-place ul li {
+        margin-bottom: 25px;
+    }
+
+    .main-content {
+        padding: 25px;
+        text-align: center;
+    }
+
+
+
+    .university {
+        max-width: 350px;
+    }
 }
